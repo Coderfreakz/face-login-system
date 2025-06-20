@@ -1,7 +1,0 @@
-flask
-face_recognition
-faiss-cpu
-opencv-python
-pillow
-numpy
-gunicorn
