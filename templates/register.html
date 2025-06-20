@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block content %}
+  <form action="/register" method="POST" enctype="multipart/form-data">
+    <h2>Register New Rider</h2>
+    <input type="text" name="name" placeholder="Full Name" required>
+    <input type="text" name="phone" placeholder="Phone Number" required>
+    <input type="file" name="face_image" required>
+    <button type="submit">Register Rider</button>
+  </form>
+{% endblock %}
