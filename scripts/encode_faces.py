@@ -4,7 +4,7 @@ import sqlite3
 import faiss
 import numpy as np
 
-image_folder = "images/"
+image_folder = "images_clean/"
 db_path = "data/metadata.db"
 index_path = "data/index.faiss"
 
